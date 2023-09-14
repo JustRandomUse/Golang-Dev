@@ -1,0 +1,27 @@
+GET http://localhost:8000/product
+
+### GET_ID
+GET http://localhost:8000/product/1
+
+###
+POST http://localhost:8000/product
+Content-Type: application/json
+
+{
+    "name": "some_product",
+    "quantity": 1,
+    "unit_cost": 1
+}
+
+###
+PUT http://localhost:8000/product/2
+Content-Type: application/json
+
+{
+    "name": "some_product",
+    "quantity": 5, 
+    "unit_cost": 1.1234567899
+}
+
+###
+DELETE POST http://localhost:8080/product/2
