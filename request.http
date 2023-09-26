@@ -1,10 +1,10 @@
-GET http://localhost:8000/product
+GET http://localhost:8088/products
 
 ### GET_ID
-GET http://localhost:8000/product/1
+GET http://localhost:8088/localhost:8000/products/2
 
 ###
-POST http://localhost:8000/product
+POST http://localhost:8088/products
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:8000/product/2
+PUT http://localhost:8088/localhost:8088/prosucts/1
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE POST http://localhost:8080/product/2
+DELETE POST http://localhost:8088/products/1
